@@ -3,6 +3,8 @@ body {
   z-index: -1;
 }
 
+
+
 /*Style pour le nom et prénom*/
 .prenometnom { 
   margin-top: -5px;
@@ -44,7 +46,7 @@ z-index: 1;
   background-size:cover;
   border-radius: 50px;
   z-index: 0;
-  positipon: absolute;
+  
 }
 
 /*Style pour le rectangle de l'expérience*/ 
@@ -71,12 +73,36 @@ z-index: 1;
   opacity: 80%;
 }
 
+/*Style pour le rectangle de l'expérience*/ 
+#rectangle-centre-logiciels{
+  margin-top: -485px;
+  margin-left: 400px;
+  height: 28%;
+  width: 40%;
+  background-color: #53c68c;
+  border-radius: 15px 50px 130px;
+  z-index: 1;
+  opacity: 80%;
+}
+
+/*Style pour le rectangle de la formation*/
+#rectangle-centre-langues{
+  margin-top: 10px;
+  margin-left: 400px;
+  height: 25%;
+  width: 40%;
+  background-color: #1aa3ff;
+  border-radius: 100px 50px 20px; 
+  z-index: 1;
+  opacity: 80%;
+}
+
 /*Style pour les h2*/
 h2{
   font: bold 30px sans-serif;
   line-height: 10px;
   color: black;
-  
+ 
 }
 
 /*Style pour les h3*/
@@ -92,12 +118,35 @@ h5{
   font: bold 15px sans-serif;
   line-height: 10px;
   color: black;
- 
+  
 }
 
 /*Style pour le boutton*/
 input{
   margin-left: 3px;
   background-color:;
+  
+}
+/*Style pour le id compet*/
+#compet{
+  opacity:80%;
+}
+
+/*Style pour la table*/
+tr, td {
+  border: 2px solid #c6ecd9;
+  
+}
+
+/*Taille de la table*/
+td{
+  height:20px;
+  width: 200px;
+  
+}
+
+a{
+  margin-left: 50px;
+  margin-top: 0px; /*CA NE MARCHE PAS */
 }
 
