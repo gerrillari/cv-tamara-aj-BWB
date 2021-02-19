@@ -1,3 +1,64 @@
 body {
-  background: orange;
+  background: white;
+  z-index: -1;
+}
+
+.prenometnom { /*Style pour le nom et prénom*/
+  margin-top: -5px;
+  font: bold 30px sans-serif;
+  margin-left: 31%;
+  position: absolute;
+  z-index: 1;
+}
+
+/*Style pour la photographie du profil*/ 
+img {
+width: 30%;
+height: 30%;
+border-radius: 50%; 
+position: absolute;
+z-index: 1;
+}
+
+/*Style pour le rectangle du top*/ 
+.rectangle-top{
+  margin-left: 100px;
+  height: 29%;
+  width: 50%%;
+  border: 4px solid black;
+  background-image: url('https://img.culturacolectiva.com/content/2016/06/bandera-gay.jpg');
+  background-size:cover;
+  border-radius: 50px;
+  bottom: 500px;
+  z-index: 0;
+  opacity: 0.5;
+}
+
+.rectangle-left{
+  margin-top: 15px;
+  height: 100%;
+  width: 50%%;
+  border: 5px solid black;
+  background-size:cover;
+  border-radius: 50px;
+  z-index: 0;
+  positipon: absolute;
+}
+
+#rectangle-left-experience{
+  margin-top: 10px;
+  margin-left: 10px;
+  height: 70%;
+  width: 40%;
+  background-color: green;
+  line-height: 10px;
+}
+
+#rectangle-left-formation{
+  margin-top: 50px;
+  margin-left: 10px;
+  height: 70%;
+  width: 40%;
+  background-color: green;
+  line-height: 10px;
 }
