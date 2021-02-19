@@ -1,9 +1,10 @@
 body {
-  background: white;
+  background : #e6e6e6;
   z-index: -1;
 }
 
-.prenometnom { /*Style pour le nom et prénom*/
+/*Style pour le nom et prénom*/
+.prenometnom { 
   margin-top: -5px;
   font: bold 30px sans-serif;
   margin-left: 31%;
@@ -34,31 +35,69 @@ z-index: 1;
   opacity: 0.5;
 }
 
-.rectangle-left{
+/*Style pour le rectangle du centre*/ 
+.rectangle-centre{
   margin-top: 15px;
   height: 100%;
   width: 50%%;
-  border: 5px solid black;
+  border: 3px solid black;
   background-size:cover;
   border-radius: 50px;
   z-index: 0;
   positipon: absolute;
 }
 
-#rectangle-left-experience{
-  margin-top: 10px;
+/*Style pour le rectangle de l'expérience*/ 
+#rectangle-centre-experience{
+  margin-top: 15px;
   margin-left: 10px;
-  height: 70%;
+  height: 28%;
   width: 40%;
-  background-color: green;
-  line-height: 10px;
+  background-color: #53c68c;
+  border-radius: 15px 50px 130px;
+  z-index: 1;
+  opacity: 80%;
 }
 
-#rectangle-left-formation{
-  margin-top: 50px;
+/*Style pour le rectangle de la formation*/
+#rectangle-centre-formation{
+  margin-top: 10px;
   margin-left: 10px;
-  height: 70%;
+  height: 25%;
   width: 40%;
-  background-color: green;
-  line-height: 10px;
+  background-color: #1aa3ff;
+  border-radius: 100px 50px 20px; 
+  z-index: 1;
+  opacity: 80%;
 }
+
+/*Style pour les h2*/
+h2{
+  font: bold 30px sans-serif;
+  line-height: 10px;
+  color: black;
+  
+}
+
+/*Style pour les h3*/
+h3{
+  font: bold 20px sans-serif;
+  line-height: 10px;
+  color: white;
+  
+}
+
+/*Style pour les h5*/
+h5{
+  font: bold 15px sans-serif;
+  line-height: 10px;
+  color: black;
+ 
+}
+
+/*Style pour le boutton*/
+input{
+  margin-left: 3px;
+  background-color:;
+}
+
