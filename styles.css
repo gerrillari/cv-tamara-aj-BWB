@@ -1,23 +1,32 @@
 body {
-  background : #e6e6e6;
-  width:780px;
+  background : #white;
+  width:750px;
   height: 900px;
-  
+  margin: auto;
 }
 
 /*Style pour le nom et prénom*/
 .prenometnom { 
-  margin-top: -5px;
+  margin-top: 50px;
   font: bold 30px sans-serif;
-  margin-left: 31%;
+  margin-left: 250px;
   position: absolute;
   z-index: 1;
+  line-height: 10px;
+  width: 500px;
+}
+/*Style pour la présentation*/
+p{
+  margin-top: -10px;
+  margin-left: 15px;
+  font: italic 20px sans-serif;
 }
 
+
 /*Style pour la photographie du profil*/ 
-img {
-width: 30%;
-height: 30%;
+#photo {
+width: 250px;
+height: 250px;
 border-radius: 50%; 
 position: absolute;
 z-index: 1;
@@ -26,7 +35,7 @@ z-index: 1;
 /*Style pour le rectangle du top*/ 
 .rectangle-top{
   margin-left: 100px;
-  height: 29%;
+  height: 27%;
   width: 50%%;
   border: 4px solid black;
   background-image: url('https://img.culturacolectiva.com/content/2016/06/bandera-gay.jpg');
@@ -41,8 +50,9 @@ z-index: 1;
 .rectangle-centre{
   margin-top: 15px;
   height: 100%;
-  width: 50%%;
-  border: 3px solid black;
+  width: 100%;
+  border: 3px solid #81852F;
+  background-color: #BFC68D;
   background-size:cover;
   border-radius: 50px;
   z-index: 0;
@@ -52,7 +62,7 @@ z-index: 1;
 /*Style pour le rectangle de l'expérience*/ 
 #rectangle-centre-experience{
   margin-top: 15px;
-  margin-left: 10px;
+  margin-left: 50px;
   height: 28%;
   width: 40%;
   background-color: #53c68c;
@@ -64,41 +74,150 @@ z-index: 1;
 /*Style pour le rectangle de la formation*/
 #rectangle-centre-formation{
   margin-top: 10px;
-  margin-left: 10px;
+  margin-left: 50px;
   height: 25%;
   width: 40%;
-  background-color: #1aa3ff;
+  background-color: #B42255;
   border-radius: 100px 50px 20px; 
   z-index: 1;
   opacity: 80%;
 }
 
-/*Style pour le rectangle de l'expérience*/ 
+/*Style pour le rectangle des logiciels*/ 
 #rectangle-centre-logiciels{
   margin-top: -530px;
   margin-left: 400px;
   height: 28%;
   width: 40%;
-  background-color: #53c68c;
-  border-radius: 15px 50px 130px;
+  background-color: #228AB4;
+  border-radius: 50px 100px 150px;
   z-index: 1;
   opacity: 80%;
 }
 
-/*Style pour le rectangle de la formation*/
+/*Style pour les icones des logiciels*/ 
+#qgis {
+width: 200px;
+height: 100px;
+margin-top: -20px;
+position: absolute;
+z-index: 1;
+}
+#arcgis {
+width: 100px;
+height: 100px;
+margin-left: 180px;
+margin-top: 50px;
+position: absolute;
+z-index: 1;
+}
+#postgresql {
+width: 200px;
+height: 150px;
+margin-left: 1px;
+margin-top: 60px;
+position: absolute;
+z-index: 1;
+}
+
+/*Style pour le rectangle des langues*/
 #rectangle-centre-langues{
   margin-top: 10px;
   margin-left: 400px;
   height: 25%;
   width: 40%;
-  background-color: #1aa3ff;
-  border-radius: 100px 50px 20px; 
+  background-color: #A965CF;
+  border-radius: 20px 150px 10px; 
   z-index: 1;
   opacity: 80%;
 }
+/*Style pour les icones des langues*/ 
+#spain {
+width: 80px;
+height: 80px;
+margin-top: 10px;
+margin-left: 50px;
+position: absolute;
+z-index: 1;
+}
+#france {
+width: 80px;
+height: 50px;
+margin-left: 170px;
+margin-top: 100px;
+position: absolute;
+z-index: 1;
+}
+#catalan {
+width: 80px;
+height: 50px;
+margin-left: 170px;
+margin-top: 25px;
+position: absolute;
+z-index: 1;
+}
+#anglais {
+width: 80px;
+height: 50px;
+margin-left: 50px;
+margin-top: 100px;
+position: absolute;
+z-index: 1;
+}
 
+/*Style pour la table des compétences*/
+table{
+  font: bold 20px sans-serif;
+  border-collapse: collapse;
+  margin-left: 15px;
+  position: absolute;
+}
+#one{
+  background-color:#84C84E;
+  opacity: 0.8;
+  border: 1px solid #E2EADB;
+  font: bold 18px sans-serif;
+}
+#two{
+  background-color: #DBFFBE;
+  opacity: 0.8;
+  border: 1px solid #D0E8BC;
+  font: italic 16px sans-serif;
+}
 
+/*Style pour le rectangle des intérêts*/
+#rectangle-centre-interets{
+  margin-top: -36px;
+  margin-left: 400px;
+  height: 25%;
+  width: 40%;
+  background-color: #F3C257;
+  border-radius: 100px 200px 50px 10px; 
+  z-index: 1;
+  opacity: 80%;
+}
+#int{
+  text-align: center;
+}
 
+/*Style pour la partie des contacts*/
+#linkedin{
+  width: 50px;
+  height: 50px;
+  margin-top: 40px;
+  margin-left: 200px;
+  position: absolute;
+  z-index: 1;
+}
+#mail{
+  width: 50px;
+  height: 50px;
+  margin-top: 50px;
+  margin-left: 350px;
+  position: absolute;
+  z-index: 1;
+  font: italic 20px sans-serif;
+}
 
 /*Style pour les h2*/
 h2{
@@ -127,25 +246,16 @@ h5{
 /*Style pour le boutton*/
 input{
   margin-left: 3px;
-  background-color:;
+  background-color:#800214;
+  font: bold 12px sans-serif;
+  color: white;
   
 }
 /*Style pour le id compet*/
 #compet{
   opacity:80%;
-}
-
-/*Style pour la table*/
-tr, td {
-  border: 2px solid #c6ecd9;
-  
-}
-
-/*Taille de la table*/
-td{
-  height:20px;
-  width: 200px;
-  
+  margin-left: 40px;
+  margin-top: 25px;
 }
 
 

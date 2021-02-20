@@ -4,6 +4,14 @@ document.getElementById("travaux").addEventListener("click", event => {
   window.open('https://www.sites.univ-rennes2.fr/mastersigat/Webmapping/2017/Sports_Rennes/index.html', '_blank');
 });
 
+//On affecte l'évenement de changer la couleur du boutton lorsqu'on traverse avec la souris par cessus
+document.getElementById("travaux").addEventListener("mouseover", event =>{
+  event.target.style.backgroundColor ="black";
+  setTimeout(function(){
+  event.target.style.backgroundColor ="";}, 500);
+}, false);
+
+/*
 //Création de la variable qui contiendra la liste de compétences dans la table
 let comp1 = ["" ,"Analyse spatiale", "Traitement de donnés","Automatisation","Photo-interprétation","Formation SIG", "Analyse Statistique","Gestion de projet","Digitalisation"];
 //Création de la variable qui contiendra la liste du niveau de compétences dans la table
@@ -73,7 +81,7 @@ for (y=1; y<= height; y++){
   tablecompet2.style.marginLeft="0px";
 }
 //Ajout de la table créée dans le div divtable 
-document.getElementById("divtable").appendChild(tablecompet2);
+document.getElementById("divtable").appendChild(tablecompet2);*/
 
 
 

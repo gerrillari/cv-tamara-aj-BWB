@@ -7,14 +7,13 @@
   <body>
     <! --Création du div prénom et nom et ajout de l'information-->
     <div class="prenometnom">
-      <h1>Tamara </br> ALCALA JIMENEZ</h1>
-      <h6><a href="" target="_blank">Profil LinkedIn</h6>
-      <h5>tam.alcalajimenez@gmail.com</h5>
+      <h1>Tamara ALCALA</h1>
+      <p>Géomaticienne sur le point de suivre une formation</br> en développement web et en recherche active </br>d'un stage dans le domaine du websig</p>
     </div>
 
     <! --Création du div pour la photographie de profil et ajout de l'image-->
     <div class="imagecv"> 
-      <img src="https://github.com/gerrillari/cv-tamara-aj-BWB/blob/master/128840924_412167129921953_1398853683687564709_n.jpg?raw=true" alt="photo cv">
+      <img id="photo" src="https://github.com/gerrillari/cv-tamara-aj-BWB/blob/master/128840924_412167129921953_1398853683687564709_n.jpg?raw=true" alt="photo cv">
     </div>
     
     <! --Création du rectangle de top-->
@@ -43,33 +42,74 @@
         <h5>Environnementaliste - U. Cadix</h5>
       </div>
 
-      <! --Création du rectangle expérience dans le rectangle du centre-->
+      <! --Création du rectangle logiciels dans le rectangle du centre-->
       <div id="rectangle-centre-logiciels">
         <h2>LOGICIELS</h2>
-        <h3>2018-2020 CAPGEMINI TS</h3>
-        <h5>Consultante technico-fonctionnelle SIG</h5>
-        <h3>2017 CNRS</h3>
-        <h5>Stagiaire SIG</h5>
-        <h3>2015 MAIRIE DE TERRASSA</h3>
-        <h5>Stagiaire SIG</h5>
+        <img id="qgis" src="https://www.qgis.org/en/_downloads/b738556101ca15d573f1a7e334e33407/qgis-logo.png" alt="qgis">
+        <img id="arcgis" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/ArcGIS_logo.png/600px-ArcGIS_logo.png" alt="arcgis">
+        <img id="postgresql" src="https://download.logo.wine/logo/PostgreSQL/PostgreSQL-Logo.wine.png" alt="postgresql">
+       
       </div>
-      <! --Création du rectangle formation dans le rectangle du centre-->
+      <! --Création du rectangle langues dans le rectangle du centre-->
       <div id="rectangle-centre-langues">
         <h2>LANGUES</h2>
-        <h3>2016-2018 MASTER SIGAT</h3>
-        <h5>Géomaticienne - Université Rennes 2</h5>
-      <! --Création du boutton qui enverra vers un lien sous js-->
-        <input id="travaux" type="button" value="Venez voir une des créations websig du master">
-        <h3>2015 BAC+4 ENVIRONNEMENT</h3>
-        <h5>Environnementaliste - U. Cadix</h5>
+        <img id="spain" src="https://image.flaticon.com/icons/png/512/555/555635.png" alt="sp">
+        <img id="france" src="https://www.banderasvdk.com/blog/wp-content/uploads/francia_400px-300x212.jpg" alt="fr">
+        <img id="catalan" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Catalonia.svg/1200px-Flag_of_Catalonia.svg.png" alt="cat">
+        <img id="anglais" src="https://upload.wikimedia.org/wikipedia/commons/a/ae/Flag_of_the_United_Kingdom.svg" alt="en">
       </div>
-      <! --Création d'un div qui comprend le titre des compétences-->
+      <! --Création d'un div qui comprend la table des compétences-->
       <div id="compet">
       <h2>COMPETENCES</h2></div>
-      <! --Création du div pour ajouter la table créee en js-->
-      <div id="divtable"></div>
-
-      
+      <table>
+        <tr>
+          <td id="one">Analyse Spatiale<td>
+          <td id="two">Niveau Autonome<td>
+        </tr>
+         <tr>
+          <td id="one">Traitement de données<td>
+          <td id="two">Niveau Autonome<td>
+        </tr>
+         <tr>
+          <td id="one">Automatisation<td>
+          <td id="two">Niveau Intermediaire<td>
+        </tr>
+         <tr>
+          <td id="one">Photo-interprétation<td>
+          <td id="two">Niveau Intermediaire<td>
+        </tr>
+         <tr>
+          <td id="one">Analyse Statistique<td>
+          <td id="two">Niveau Intermediaire<td>
+        </tr>
+         <tr>
+          <td id="one">Gestion de projet<td>
+          <td id="two">Niveau Intermediaire<td>
+        </tr>
+         <tr>
+          <td id="one">Digitalisation<td>
+          <td id="two">Niveau Avancé<td>
+        </tr>
+         <tr>
+          <td id="one">Formation SIG<td>
+          <td id="two">Niveau Autonome<td>
+        </tr>
+      </table>
+      <! --Création d'un div qui comprend pour les intérêts-->
+      <div id="rectangle-centre-interets">
+        <h2>INTERETS</h2>
+        <h3 id="int">FEMINISME</h3>
+        <h3 id="int">FOOT</h3>
+        <h3 id="int">JEUX VIDEO & DE ROLE</h3>
+        <h3 id="int">NATURE</h3>
+        <h3 id="int">FILMS SCI-FI & HORREUR</h3>
+        <h3 id="int">DEBATS</h3>
+      </div>
+      <div id="rectangle-centre-contact">
+        <a href="https://www.linkedin.com/in/tamaraalcalajimenez/" target="_blank"><img id="linkedin" src="https://image.flaticon.com/icons/png/512/174/174857.png" alt="le"></a>
+        <p id="mail">tam.alcalajimenez@gmail.com</p>
+      </div>
+    
     </div>
     
       
