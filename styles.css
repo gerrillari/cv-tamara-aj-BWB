@@ -1,3 +1,4 @@
+/*Style pour le body*/
 body {
   background : #white;
   width:750px;
@@ -15,13 +16,13 @@ body {
   line-height: 10px;
   width: 500px;
 }
+
 /*Style pour la présentation*/
 p{
   margin-top: -10px;
   margin-left: 15px;
   font: italic 20px sans-serif;
 }
-
 
 /*Style pour la photographie du profil*/ 
 #photo {
@@ -56,7 +57,6 @@ z-index: 1;
   background-size:cover;
   border-radius: 50px;
   z-index: 0;
-  
 }
 
 /*Style pour le rectangle de l'expérience*/ 
@@ -224,7 +224,6 @@ h2{
   font: bold 30px sans-serif;
   line-height: 10px;
   color: black;
- 
 }
 
 /*Style pour les h3*/
@@ -232,7 +231,6 @@ h3{
   font: bold 20px sans-serif;
   line-height: 10px;
   color: white;
-  
 }
 
 /*Style pour les h5*/
@@ -240,7 +238,6 @@ h5{
   font: bold 15px sans-serif;
   line-height: 10px;
   color: black;
-  
 }
 
 /*Style pour le boutton*/
@@ -249,7 +246,6 @@ input{
   background-color:#800214;
   font: bold 12px sans-serif;
   color: white;
-  
 }
 /*Style pour le id compet*/
 #compet{
