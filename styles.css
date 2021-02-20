@@ -1,9 +1,9 @@
 body {
   background : #e6e6e6;
-  z-index: -1;
+  width:780px;
+  height: 900px;
+  
 }
-
-
 
 /*Style pour le nom et prénom*/
 .prenometnom { 
@@ -75,7 +75,7 @@ z-index: 1;
 
 /*Style pour le rectangle de l'expérience*/ 
 #rectangle-centre-logiciels{
-  margin-top: -485px;
+  margin-top: -530px;
   margin-left: 400px;
   height: 28%;
   width: 40%;
@@ -96,6 +96,9 @@ z-index: 1;
   z-index: 1;
   opacity: 80%;
 }
+
+
+
 
 /*Style pour les h2*/
 h2{
@@ -145,8 +148,4 @@ td{
   
 }
 
-a{
-  margin-left: 50px;
-  margin-top: 0px; /*CA NE MARCHE PAS */
-}
 
